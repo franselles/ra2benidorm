@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.15.10" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="11433" PreviewOptions.DoubleBuffered="False" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41843,632519213" ReportOptions.Description.Text="" ReportOptions.LastChange="41916,9804838657" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C65667403570103546F700305010844617461736574730101065020446174615365743D22667278444244617461736574526573746F5661636163696F6E65732220446174615365744E616D653D22667278444244617461736574526573746F5661636163696F6E6573220001064620446174615365743D2266727844424461746173657454616C6F6E6172696F732220446174615365744E616D653D2266727844424461746173657454616C6F6E6172696F73220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData2" Height="15,11812" Left="0" Top="230,55133" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDatasetTalonarios" DataSetName="frxDBDatasetTalonarios" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo2" Left="11,33859" Top="0" Width="128,50402" Height="15,11812" ShowHint="False" DataField="nombre" DataSet="frxDBDatasetTalonarios" DataSetName="frxDBDatasetTalonarios" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" SuppressRepeated="True" Text="[frxDBDatasetTalonarios.&#34;nombre&#34;]"/>
+      <TfrxMemoView Name="Memo1" Left="302,3624" Top="0" Width="245,66945" Height="15,11812" ShowHint="False" StretchMode="smMaxHeight" DataField="numeros1" DataSet="frxDBDatasetTalonarios" DataSetName="frxDBDatasetTalonarios" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" LineSpacing="18" ParentFont="False" Text="[frxDBDatasetTalonarios.&#34;numeros1&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="143,62214" Top="0" Width="154,96073" Height="15,11812" ShowHint="False" StretchMode="smMaxHeight" DataField="numeros" DataSet="frxDBDatasetTalonarios" DataSetName="frxDBDatasetTalonarios" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" LineSpacing="18" ParentFont="False" Text="[frxDBDatasetTalonarios.&#34;numeros&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" Height="26,45671" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo7" Left="0" Top="3,77953" Width="525,35467" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="5" ParentFont="False" Text="PLANIFICACION Y CONTROL DE LOS SERVICIOS POR SECTORES"/>
+    </TfrxPageHeader>
+    <TfrxGroupHeader Name="GroupHeader1" Height="3,77953" Left="0" Top="105,82684" Width="718,1107" Condition="frxDBDatasetTalonarios.&#34;orden_impresion&#34;" KeepTogether="True" StartNewPage="True"/>
+    <TfrxGroupHeader Name="GroupHeader2" Height="34,01577" Left="0" Top="132,28355" Width="718,1107" Condition="frxDBDatasetTalonarios.&#34;playas_id&#34;">
+      <TfrxMemoView Name="Memo5" Left="3,77953" Top="3,77953" Width="230,55133" Height="18,89765" ShowHint="False" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" SuppressRepeated="True" Text="[frxDBDatasetTalonarios.&#34;playa&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="238,11039" Top="3,77953" Width="211,65368" Height="18,89765" ShowHint="False" Text="FECHA:   [fecha_informe]"/>
+    </TfrxGroupHeader>
+    <TfrxGroupHeader Name="GroupHeader3" Height="18,89765" Left="0" Top="188,9765" Width="718,1107" Condition="frxDBDatasetTalonarios.&#34;sectores_id&#34;">
+      <TfrxMemoView Name="Memo4" Left="11,33859" Top="0" Width="154,96073" Height="15,11812" ShowHint="False" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" ParentFont="False" SuppressRepeated="True" Text="[frxDBDatasetTalonarios.&#34;sector&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="268,34663" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDatasetRestoVacaciones" DataSetName="frxDBDatasetRestoVacaciones" RowCount="1">
+      <TfrxMemoView Name="Memo9" Left="11,33859" Top="3,77953000000002" Width="241,88992" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="SIN TALONARIOS"/>
+    </TfrxMasterData>
+    <TfrxDetailData Name="DetailData1" Height="15,11812" Left="0" Top="313,70099" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDatasetRestoVacaciones" DataSetName="frxDBDatasetRestoVacaciones" RowCount="0">
+      <TfrxMemoView Name="Memo11" Left="11,33859" Top="0" Width="241,88992" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxDBDatasetRestoVacaciones.&#34;nombre&#34;]"/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>
